@@ -4,9 +4,6 @@
   border-color: blueviolet;
   text-transform: capitalize;
 }
-/* .feedback:not(:last-child) {
-  margin-right: 20px;
-} */
 .btn {
   display: block;
   margin-left: auto;

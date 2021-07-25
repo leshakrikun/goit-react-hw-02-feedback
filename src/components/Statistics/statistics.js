@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import s from './statistic.module.css';
 import Notification from '../Notification/notification';
 
 const Statistics  = ({stats:{good, bad, neutral}}) => {
@@ -8,9 +7,7 @@ const Statistics  = ({stats:{good, bad, neutral}}) => {
   const positive = Math.round((good/(bad+neutral+good)*100))
   return (
   <>
-  <h2>Statistics</h2>
- 
- {!total ? (
+   {!total ? (
         <Notification />
       ) : (
         
